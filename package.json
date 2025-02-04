@@ -4,14 +4,16 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
   "keywords": [],
   "author": "Noxvall",
   "license": "ISC",
   "description": "TestAPI with Express.js",
   "dependencies": {
-    "express": "^4.21.2"
+    "express": "^4.21.2",
+    "uuid": "^11.0.5"
   },
   "devDependencies": {
     "nodemon": "^3.1.9"
